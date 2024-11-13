@@ -1,0 +1,127 @@
+
+:root{
+    --c01: #fff;
+    --c02: #000;
+    --c03: #401911;
+    --c04: #FF7250;
+    --c05: #0e130f;
+    --c06: #B00000;
+    --c07: #421911;
+    --c08: #9B9B9B;
+    --c09: #4C2012;
+    --c10: #00B01C;
+    --c11: #B00000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--c01);
+}
+
+body{
+    background-color: var(--c09);
+}
+
+a{
+    text-decoration: none;  
+}
+
+
+li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+header, footer{
+    width: 100%;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: var(--c05);
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2{
+    margin:20px;
+}
+section{
+    margin: 3.125rem auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    color: var(--c01);
+    background-color: var(--c02);
+    border-radius: 0.5rem;
+}
+
+
+section > form > input{
+    display: block;
+    margin: 1.5rem auto;
+    border: 0;
+    outline: 0;
+    color: var(--c02);
+}
+
+section > form > input[type = 'number'], input[type = 'text']{
+    width: 45%;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+}
+
+section > form > input[type = 'radio']{
+    display: inline;
+}
+
+article{
+    display: inline-block;
+}
+
+.imagem{
+    width: 9.375rem;
+    height: 9.375rem;
+    object-fit: cover;
+}
+
+button{
+    width: 15%;
+    padding: 1rem;
+    border: 0;
+    font-weight: bold;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--c11);
+    
+}
+
+button[type = 'submit']{
+    color: var(--c01);
+    background-color: var(--c10);
+}
+
+button[type = 'reset']{
+    background-color: var(--c11);
+}
+
+select{
+    width: 15%;
+    text-align: center;
+    display: block;
+    margin: 1.5rem auto;
+    border: 0;
+    outline: 0;
+    color: var(--c02);
+
+}
+
+option{
+    color: var(--c02);
+}
+
